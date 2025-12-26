@@ -504,6 +504,7 @@ body{
     font-size: 35px;
     margin-bottom: 8px;
     font-weight: 700;
+    position: relative;
     
 }
 
@@ -594,10 +595,10 @@ left: 0;
     content: "";
     width: 100%;
     background-color: black;
-    height: 45%;
+    height: 100%;
     transition: .4s;
     position: absolute;
-    top: 35px;
+    top: 0;
     left: 0;
     width: 0;
     transition: .4s;
