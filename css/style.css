@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-<<<<<<< HEAD
 body{
 
       font-family: "Playfair Display", serif;
@@ -168,8 +167,15 @@ left: 0;
 }
 
 
+.left-box{
 
-.left-box:hover .offer-pic img{
+      height: 280px;
+    overflow: hidden;
+}
+
+
+
+.left-box:hover .pic-hover{
 
     transform: scale(1.1);
 }
@@ -200,7 +206,7 @@ left: 0;
 
 .left-box:hover .pic-hover{
 
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 .sec-heading{
@@ -513,7 +519,7 @@ font-family: 'Roboto';
 .fea-mian-box2{
 
     margin-top: -2px !important;
-=======
+}
 
 body{
      font-family: "Roboto", sans-serif;
@@ -956,5 +962,4 @@ width: 11px;
 .category-card:hover .img-box  img{
   transform: scale(1.1) rotate(2deg);
   transition: .4s;
->>>>>>> dc6d2454bcd699db66c86e74a83e910d0faa2dab
 }
